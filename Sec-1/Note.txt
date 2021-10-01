@@ -1,0 +1,14 @@
+Please Note on sequence of Lectures
+
+
+As Angular uses TypeScript language to build the code,  In the Next Section- I have explained
+TypeScript Object oriented Programming Basics.
+
+If you are new to typescript, I recommend you to watch this Section 2 to understand how to
+define Classes, Interfaces, Keywords, functions ,Typing, objects, operators in Typescript.  This
+Section 2 is exclusively on TypeScript and nothing to do with Angular.
+
+
+
+If you are already aware of basics, then feel free to Skip Section 2 and Start  directly with Angular
+from Section 3.

@@ -1,0 +1,52 @@
+There are three types of Angular testing:
+
+	- Unit testing: is the process of testing small, isolated pieces of code. Also known as isolated
+	testing, unit tests do not use external resources, such as network or a database.
+	
+	Angular is designed to help us write code in such a way that will enable us test our app's
+	functions individually in isolation. 
+	
+	Angular integration testing: is just as important as unit testing and end-to-end (E2E) testing.
+	Using Angular integration testing, you can test two or more units of an Angular app that work
+	together to perform a specific task. For example, you can test to verify that your app sends or
+	receives the expected data from a service. Writing integration tests for Angular projects should
+	be a must.
+	
+
+Functional testing: refers to testing the functionality and of your Angular app from a user 
+experience perspective - i.e., interacting with your app as it's running in a browser just as a user
+would
+
+
+Jasmine, Karma and Angular TestBed are the powerful Testing Utilities/tools to build 
+Unit/Integration tests in Angular. 
+
+Jasmine: is a behaviour-driven development Test framework for testing JavaScript code.
+
+describe ("A suite is just a function", function() {
+	var a;
+	
+	it("and so is a spec", function() {
+		a = true.
+		
+		expect(a).toBe(true);
+		
+	});
+});
+
+
+Karma: is a tool which lets us spawn browsers and run Jasmine tests inside of them all from the
+command line. 
+
+Karma is a task runner for our tests. It uses a configuration file in order to set the startup file, the
+reporters, the testing framework, the browser among other things.
+
+What is Angular Test Bed?
+
+The TestBed is the most important Angular testing utility. The TestBed creates a 
+dynamically-constructed Angular test module that emulates an Angular @NgModule.
+
+Before running any test in angular you need to configure an angular testbed. This allows you to 
+create an angular environment for the component being tested. Any module, component or 
+service that your tested component needs have to be included in the testbed. Finally, after 
+settling the configuration, you call the compile components function. 
